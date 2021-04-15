@@ -2,10 +2,10 @@ module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://RiccardoFelicetti.github.io',
-  baseUrl: '/docusaurus-test-io/',
+  baseUrl: '/docusaurus-forestry-starter/',
   favicon: 'img/favicon.ico',
   organizationName: 'RiccardoFelicetti', // Usually your GitHub org/user name.
-  projectName: 'docusaurus-test-io', // Usually your repo name.
+  projectName: 'docusaurus-forestry-starter', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Site',
