@@ -2,9 +2,9 @@ name: buildGithubPages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -31,7 +31,8 @@ jobs:
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
         with:
+          repo: RiccardoFelicetti/docusaurus-starter-io
           target_branch: gh-pages
           build_dir: build
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.ACCESS_TOKEN }}
