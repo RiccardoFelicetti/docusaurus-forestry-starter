@@ -35,4 +35,4 @@ jobs:
           target_branch: gh-pages
           build_dir: build
         env:
-          GH_PATH: ${{ secrets.ACCESS_TOKEN }}
+          GH_PAT: ${{ secrets.ACCESS_TOKEN }}
