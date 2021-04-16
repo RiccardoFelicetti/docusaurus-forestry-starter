@@ -36,3 +36,4 @@ jobs:
           build_dir: build
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PATH: ${{ secrets.ACCESS_TOKEN }}
