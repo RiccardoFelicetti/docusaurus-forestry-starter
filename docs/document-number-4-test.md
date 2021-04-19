@@ -1,7 +1,7 @@
 ---
-id: ''
+id: docs
 title: Document number 4- test
-sidebar_label: ''
+sidebar_label: docs4
 
 ---
 **Prova**
