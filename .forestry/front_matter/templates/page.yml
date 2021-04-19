@@ -11,3 +11,5 @@ fields:
 - type: text
   name: sidebar_label
   label: sidebar_label
+pages:
+- docs/document-number-4-test.md
