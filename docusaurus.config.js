@@ -89,13 +89,12 @@ module.exports = {
            // 'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
           routeBasePath: '/'
         },
-        blog: false//{
-          //showReadingTime: true,
+        blog: {
+          showReadingTime: true,
           // Please change this to your repo.
-          //editUrl:
-           // 'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
-        //}
-        ,
+          editUrl:
+            'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
