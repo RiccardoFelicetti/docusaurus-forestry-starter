@@ -82,21 +82,23 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
-        docs: {
-          path: './docs',
-          routeBasePath: '/'
-          //sidebarPath: require.resolve('./sidebars.json'),
-          // Please change this to your repo.
-          //editUrl:
-            //'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
-
-        },
-         blog: false,//{
-          //showReadingTime: true,
-        //    Please change this to your repo.
-        //   editUrl:
-        //     'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
+        docs: false,//{
+        //   path: './docs',
+        //   routeBasePath: '/'
+        //   //sidebarPath: require.resolve('./sidebars.json'),
+        //   // Please change this to your repo.
+        //   //editUrl:
+        //     //'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
+        //
         // },
+         blog:{
+           path: './blog',
+           routeBasePath: '/'
+          // showReadingTime: true,
+          //  // Please change this to your repo.
+          // editUrl:
+          //   'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
