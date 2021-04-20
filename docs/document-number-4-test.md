@@ -1,7 +1,7 @@
 ---
 id: doc4
 title: Document number 4- test
-sidebar_label: doc4
+sidebar_label: Document number 4 -test
 
 ---
 **Prova**
