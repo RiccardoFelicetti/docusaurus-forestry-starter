@@ -83,17 +83,19 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.json'),
+          //sidebarPath: require.resolve('./sidebars.json'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
+          //editUrl:
+           // 'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
+          routeBasePath: '/'
         },
-        blog: {
-          showReadingTime: true,
+        blog: false//{
+          //showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
-        },
+          //editUrl:
+           // 'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/blog/',
+        //}
+        ,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
