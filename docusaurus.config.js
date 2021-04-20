@@ -83,7 +83,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          path: './doc',
+          path: './docs',
           routeBasePath: '/'
           //sidebarPath: require.resolve('./sidebars.json'),
           // Please change this to your repo.
