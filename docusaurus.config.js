@@ -14,6 +14,7 @@ module.exports = {
         src: 'img/logo.svg',
       },
       items: [
+          //commented for docs only
         // {
         //   to: 'docs/',
         //   activeBasePath: '/',
@@ -35,6 +36,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
+              //changed for docs only ---->previus "/docs" and "/docs/doc2"
               label: 'Style Guide',
               to: '/',
             },
@@ -64,6 +66,7 @@ module.exports = {
         {
           title: 'More',
           items: [
+              //commented for docs only
             // {
             //   label: 'Blog',
             //   to: 'blog',
@@ -85,12 +88,14 @@ module.exports = {
         docs: {
           path: './docs',
           routeBasePath: '/'
+          //commented for docs only
           //sidebarPath: require.resolve('./sidebars.json'),
           // Please change this to your repo.
           //editUrl:
             //'https://github.com/DirtyF/docusaurus-forestry-starter/edit/master/website/',
 
         },
+        //set false for docs only
          blog: false, //{
           // showReadingTime: true,
           //  // Please change this to your repo.
