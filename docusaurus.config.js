@@ -2,7 +2,7 @@ module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
   url: 'https://RiccardoFelicetti.github.io',
-  baseUrl: '/docusaurus-starter-io/',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'RiccardoFelicetti', // Usually your GitHub org/user name.
   projectName: 'docusaurus-forestry-starter', // Usually your repo name.
